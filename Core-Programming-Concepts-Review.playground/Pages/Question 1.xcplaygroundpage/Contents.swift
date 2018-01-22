@@ -23,15 +23,15 @@ import Foundation
 // Revise code below to answer question 1
 
 // Transformation parameters
-let updown = 5.0
-let lr = 2.0
-let stretchvalue = 0.5
+let vertTrans = 5.0
+let horizTrans = 2.0
+let vertScaleFactor = 0.5
 
 // Set the independent variable value
 let input = 100.0
 
 // Calculate the dependent variable value
-let y = stretchvalue * pow(input - lr, 2) + updown
+let output = vertScaleFactor * pow(input - horizTrans, 2) + vertTrans
 
 /*:
  In other words:
