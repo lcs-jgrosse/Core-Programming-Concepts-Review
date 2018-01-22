@@ -18,7 +18,16 @@
  
  */
 // Answer question 2 below
-
+var numberOfCommits : Int
+print("This number will change over time ao it has to be a variable")
+var numberOfForks : Int
+print("This number will change over time ao it has to be a variable")
+let yearCreated : Int
+print("After it is created it will never change again")
+let monthCreated : Int
+print("After it is created it will never change again")
+let dayCreated : Int
+print("After it is created it will never change again")
 /*:
  ## Now share your understanding
  
